@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+</style>
+<body>
+<input type="text" id="inp">
+<button id="start">开始</button>
+<button id="end">结束</button>
+<script>
+    start = document.getElementById('start');
+    end = document.getElementById('end');
+    var timeloop;
+    // 1.获取当前时间
+    function f1() {
+        var showTime = new Date();
+        localTime = showTime.toLocaleString();
+        inpele = document.getElementById('inp')
+        inpele.value = localTime;
+        // console.log(localTime);
+    }
+    // 2.把时间放进去
+    start.onclick = function () {
+        f1();
+        if (timeloop === undefined) {
+            timeloop = setInterval(f1, 1000)
+        }
+    }
+    // 3.停止时间
+    end.onclick = function () {
+        clearInterval(timeloop)
+        timeloop = undefined
+    }
+</script>
+</body>
+</html>

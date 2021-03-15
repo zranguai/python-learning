@@ -1,0 +1,261 @@
+# python目录索引
+## [python基础数据类型1](https://www.cnblogs.com/zranguai/p/13605241.html)
+### 目录
++ part1
++ part2
+  + 运算符
+  + 格式化
++ part3
+  + 字符串
+  + 字符串常用操作方法
++ part4
+  +  列表
+       + 列表的创建：
+  + 列表的索引，切片
+  + 列表的增删改查：
+  + 列表的嵌套
+  + tuple只读
+  + range()
++ part5:
+  + 字典
+    + 数据类型的分类
+    + 字典的创建方式
+    + 验证字典的合法性:键应该是不可变数据类型
+    + 字典的增删改查
+    + 字典的嵌套
+## [python基础数据类型2](https://www.cnblogs.com/zranguai/p/13605243.html)
++ part6
+  + 代码块:
+  + 集合（set），枚举:
+  + 深浅copy:
++ part7:
+  + 基础数据类型补充:
+  + 编码的进阶
++ part8:
+  + 文件操作:
+  + 文件操作的写/追加/其他方式
+  + 文件操作的其他功能/打开文件的例一种操作
+  + 文件的改操作:
+## [ python函数学习](https://www.cnblogs.com/zranguai/p/13605253.html)
++ part1
+  + 函数的作用：
+  + 函数的结构：
+  + 函数的返回值
+  + 函数的传参：（实参/形参）
+  + 三元运算符：（简单的 if else ）
++ part2
+  + 函数的参数2
+  + 名称空间
+  + globals/locals
++ part3
+  + 默认参数陷阱/局部作用域的坑 ***
+  + 函数名的应用***
+  + 格式化输出（新特性3.6版本之后）
+  + 迭代对象/迭代器***
++ part4
+  + 生成器***
+  + 列表推导式/生成器表达式***
+  + 内置函数1（了解）
++ part5
+  + 匿名函数
+  + 内置函数2（重点学习）
+  + 闭包
++ part6
+  + 装饰器
+## [Python模块Ⅰ](https://www.cnblogs.com/zranguai/p/13620750.html)
++ part1
+  + 模块的定义/取别名
+  + 模块的导入
+  + 模块路径问题/相对导入
+  + 常用模块之random
++ part2
+  + 常用模块之time
+  + 常用模块之datetime
+  + 常用模块之os
+  + 常用模块之sys
+  + 常用模块之json***
+  + 常用模块之pickle
+  + 常用模块之hashlib
+  + 常用模块之collections
+## [Python模块Ⅱ](https://www.cnblogs.com/zranguai/p/13620927.html)
++ part3
+  + 模块的分类：
++ part4
+  + 软件开发规范
++ part5
+  + 正则表达式元字符(重要)
+  + 正则表达式量词
+  + 贪婪匹配/惰性匹配/转义符
+  + re模块
+  + re模块中的flag参数(第三个参数[可选])
++ part 6
+  + re模块2
+  + re模块3
+  + 递归函数
+  + 带参数的装饰器
++ part7
+  + shutil模块
+  + logging模块
+  + logging模块输出到屏幕/文件
+## [python面向对象](https://www.cnblogs.com/zranguai/p/13702256.html)
++ part1
+  + 面对对象编程
+  + 实例化经历步骤/面向对象编程理解
+  + 初识方法
++ part2:
+  + 命名空间问题
+  + 组合
++ part3:
+  + 继承
+  + 继承2/多继承
+  + 知识点的补充
+  + pickle补充
++ part4:
+  + 类的继承关系
+  + 抽象类（父类对子类的约束）
+  + 多态和鸭子类型
++ part5:
+  + super方法
+  + 封装
+  + 内置函数properity
+  + 反射（getattr）
+  + hasattr()
++ part6:
+  + 两个装饰器函数之classmethod*****
+  + 两个装饰器函数之staticmethod*
+  + __call__方法
+  + __len__方法
+  + __new__方法(构造方法)
+  + __str__和__repr__方法
+## [ python网络编程](https://www.cnblogs.com/zranguai/p/13749752.html)
++ part1:
+  + 网络编程基础
+  + osi五（七）层协议
+  + 最简单的网络通信(基于tcp协议)
++ prat2:
+  + tcp协议
+  + 利用tcp协议和多个客户端进行通信
+  + struct模块
+  + 解决tcp协议中的粘包现象
+  + udp协议
++ part3:
+  + 验证客户端的合法性
+  + socketserver模块--针对并发编程
+## [python并发编程之进程](https://www.cnblogs.com/zranguai/p/13822571.html)
++ part 1:
+  + 操作系统基础--I/O操作
+  + 多道操作系统/分时操作系统
+  + 并发概念
++ part 2:
+  + 进程的概念
+  + multiprocessing模块:
+  + join()的用法:
+  + 多进程之间的数据是否隔离
+  + 使用多进程实现一个并发的socketserver
++ part 3:
+  + 开启进程的例外一种方式
+  + Process类的其他方法
+  + 守护进程
+  + 进程同步---Lock 锁 *****
+  + 进程之间数据隔离---队列
+## [python并发编程之线程/协程](https://www.cnblogs.com/zranguai/p/13823017.html)
++ part 4:
+  + 异步阻塞例子与生产者消费者模型
+  + 通过Manager进行数据共享
+  + 线程
+  + threading模块
+  + 线程之间数据是共享的
++ part 5:
+  + 守护线程
+  + 线程数据不安全现象
+  + 线程锁
+  + 单例模式
+  + 互斥锁和递归锁
+  + 死锁现象
+  + 队列
++ part 6:
+  + 池
+  + 回调函数的例子
+### 协程
++ 协程概念：
++ gevent-协程例子
++ asyncio模块
+## [MySql笔记Ⅰ](https://www.cnblogs.com/zranguai/p/13902864.html)
++ part 1:
+  + 数据库概念
+  + mysql的账号操作
+  + mysql基础
++ part2:
+  + 存储引擎
+  + 表和数据的基本操作
+  + 数据类型--数字
+  + 数据类型--时间
+  + 数据类型--字符串
+  + 数据类型--enum和set
+  + 表的完整性约束
+  + 表与表之间的关系
+## [MySql笔记2：](https://www.cnblogs.com/zranguai/p/13903844.html)
++ part3:(table相关的操作)
+  + 数据的增删改
+  + 数据的查询
+  + where约束
+  + group by 分组
+  + having过滤语句/order by排序/limit
++ part4:(连表查询，子查询)
+  + 连表查询
+  + 数据查询加载顺序
++ part5:MySql索引原理
+  + MySql索引原理简介
+  + 索引结构--树
+  + 正确的使用索引
++ part6:python操作mysql
+  + python操作数据库
+  + pymysql模块和查
+  + pymysql模块之增加/删除/修改
+  + 数据备份和恢复
+## [Linux学习笔记](https://www.cnblogs.com/zranguai/p/13934166.html)
+### Linux学习
+1. Linux目录结构
+2. vi和vim编辑器
+3. 开机，重启，和用户登入注销
+4. 
+### 实用指令
+1. 运行级别说明
+2. 切换到指定级别的指令
+3. 帮助指令：
+4. 文件目录类：
+5. 时间日期类：
+6. 搜索查找类
+7. 压缩和解压
+### 组管理和权限管理
+1. Linux组基本介绍
+2. 权限基本介绍
+3. crond任务调度
+### Linux磁盘分区，挂载
+1. 分区基础知识
+### 网络配置
+### 进程管理
+1. 显示系统执行的进程
+2. 终止进程kill和killall
+3. 查看进程树pstree
+4. 服务(Service)管理
+5. 动态监控进程
+6. 查看系统网络情况netstat(重要)
+### Python: apt软件管理和远程登入
+## [爬虫Ⅰ:爬虫的基础知识](https://www.cnblogs.com/zranguai/p/14036492.html)
+### step1:
++ 爬虫初始：
+### step2:
++ 数据解析简介
+### step3:
++ 代理
+### step4:
++ 单线程+多任务异步协程总结
+## [爬虫Ⅱ:scrapy框架](https://www.cnblogs.com/zranguai/p/14036876.html)
+### step5:
++ Scrapy框架初识
+### step6
++ 全站数据爬取简介
+### step7:
++ CrawlSpider,分布式，增量式简介
++ 

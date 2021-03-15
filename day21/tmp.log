@@ -1,0 +1,20 @@
+2020-09-05 22:30:02 PM - root - WARNING[line:86] -03 loggingģ��:  warning message test2
+2020-09-05 22:30:02 PM - root - ERROR[line:87] -03 loggingģ��:  error message test2
+2020-09-05 22:30:02 PM - root - CRITICAL[line:88] -03 loggingģ��:  critical message test2
+2020-09-05 22:39:09 PM - root - DEBUG[line:101] -03 logging模块:  debug 
+2020-09-05 22:39:09 PM - root - WARNING[line:102] -03 logging模块:  warning message test2
+2020-09-05 22:39:09 PM - root - ERROR[line:103] -03 logging模块:  error message test2
+2020-09-05 22:39:09 PM - root - CRITICAL[line:104] -03 logging模块:  critical message test2
+2020-09-05 22:40:00 PM - root - DEBUG[line:102] -03 logging模块:  debug 
+2020-09-05 22:40:00 PM - root - WARNING[line:103] -03 logging模块:  warning message test2
+2020-09-05 22:40:00 PM - root - ERROR[line:104] -03 logging模块:  error message test2
+2020-09-05 22:40:00 PM - root - CRITICAL[line:105] -03 logging模块:  critical message test2
+2020-09-05 22:53:49 PM - root - ERROR[line:127] -03 logging模块:  error1
+2020-09-05 22:53:50 PM - root - ERROR[line:127] -03 logging模块:  error2
+2020-09-05 22:53:51 PM - root - ERROR[line:127] -03 logging模块:  error3
+2020-09-05 22:53:52 PM - root - ERROR[line:127] -03 logging模块:  error4
+2020-09-05 22:53:53 PM - root - ERROR[line:127] -03 logging模块:  error5
+2020-09-05 22:53:54 PM - root - ERROR[line:127] -03 logging模块:  error6
+2020-09-05 22:53:55 PM - root - ERROR[line:127] -03 logging模块:  error7
+2020-09-05 22:53:56 PM - root - ERROR[line:127] -03 logging模块:  error8
+2020-09-05 22:53:57 PM - root - ERROR[line:127] -03 logging模块:  error9

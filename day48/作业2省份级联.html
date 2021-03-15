@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<select id="province">
+    <option>请选择省</option>
+</select>
+<select id="city">
+    <option>请选择市</option>
+</select>
+<script>
+    var data = {"河北省": ["廊坊", "邯郸"], "北京": ["朝阳区", "海淀区", "天安门"], "山东": ["威海市", "烟台市"]};
+    var pronode = document.getElementById('province');
+    // 第一个框
+    for (var prov in data) {
+        var prooption = document.createElement('option');
+        prooption.innerText = prov;
+        pronode.appendChild(prooption)
+    }
+    // 第二个框
+    var citynode = document.getElementById('city');
+    pronode.onchange = function () {
+        citynode.innerText = "";
+        var protext = this.options[this.selectedIndex].innerText;
+        console.log(protext);
+        for (var cit in data[protext]) {
+            var cityoption = document.createElement('option');
+            cityoption.innerText = data[protext][cit];
+            citynode.appendChild(cityoption)
+        }
+    }
+</script>
+</body>
+</html>
